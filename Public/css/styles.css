@@ -1,0 +1,159 @@
+body{
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.Logo_Div p{
+    color: #0D3644;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+    border-bottom: 1px solid #F6AE2D;
+}
+.NavItems{
+    display: flex;
+    list-style: none;
+}
+.NavItem{
+    margin: auto 10px;
+}
+.active_Nav{
+    border-bottom: 1px solid #0D3644;
+}
+.NavItem a{
+    font-family: 'Muli';
+    color: #0D3644;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Book_Now button{
+    padding: 15px 30px;
+    outline: none;
+    background: #F6AE2D;
+    font-family: 'Muli';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+}
+.Rooms{
+    padding: 10px 100px;
+}
+.Room_Book_Room_Btn{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.Room_Description{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+.Room_Standard{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 1px;
+}
+.Room_Price{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.Room_Price span{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.Room_Row_1{
+    display: flex;
+    justify-content: space-between;
+}
+.Room_1{
+    position: relative;
+    background: linear-gradient(rgba(41, 41, 41, 0.4), rgba(41, 41, 41, 0.4)),url('../images/room1.png');
+    height: 400px;
+    width: 49%;
+}
+.Room_2{
+    position: relative;
+    background: linear-gradient(rgba(41, 41, 41, 0.4), rgba(41, 41, 41, 0.4)),url('../images/room2.png');
+    height: 400px;
+    width: 49%;
+}
+.Room_3{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    background: linear-gradient(rgba(41, 41, 41, 0.4), rgba(41, 41, 41, 0.4)),url('../images/room3.png');
+    height: 400px;
+    width: 100%;
+}
+
+
+
+.Home_SignUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Home_Sign_Up_Text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #0D3644;
+}
+.Home_Your_Right{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #0D3644;
+}
+
+
+footer{
+    margin-top: 20px;
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #0D3644;
+}
