@@ -3,9 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,700;1,400&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">    
+    <title>Rest. | Home</title>
 </head>
 <body>
+    <main>
+        <div id = "sidebar" class="sidebar sidebar--closed">
+            <ul class="sidebar__list">
+                <li class="sidebar__list-item"><a href="./" class="sidebar__link  sidebar__link--active">Home</a></li>
+                <li class="sidebar__list-item"><a href="./rooms.html" class="sidebar__link">Rooms and rates</a></li>
+                <li class="sidebar__list-item"><a href="./facilities.html" class="sidebar__link">Facilities</a></li>
+                <li class="sidebar__list-item"><a href="./contact.html" class="sidebar__link">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div id = "dropdown" class="dropdown">
+            <div class="dropdown-toggle"></div>
+        </div>
+
+        <nav class="nav">
+            <a href = "./" class="nav__logo-box">
+                <h1 class="nav__logo">Rest.</h1>
+            </a>
+
+            <ul class="nav__list">
+                <li class="nav__list-item"><a href="./" class="nav__link nav__link--active">Home</a></li>
+                <li class="nav__list-item"><a href="./rooms.html" class="nav__link">Rooms and rates</a></li>
+                <li class="nav__list-item"><a href="./facilities.html" class="nav__link">Facilities</a></li>
+                <li class="nav__list-item"><a href="./contact.html" class="nav__link">Contact us</a></li>
+            </ul>
+        </nav>
+
+        <header class="header">
+            <div class="header__info">
+                <h1 class="heading--0 header__heading">A resting <span> place that suits you</span></h1>
+                <p class="paragraph">Our suites are made of the best failities to bring you the comfort you deserve.</p>
+            </div>
+            
+            <div class="header__video-container">
+                <img src="./assets//img/video.jpg" class="header__video" alt="">
+            </div>
+
+            <div class="header__cta">
+                <div class="header__cta-content">
+                    <span class="header__cta-title">check in</span>
+                    <span class="header__cta-date">Sun. 19 Aug, 2020</span>
+                    <i class="header__cta-icon"></i>
+                </div>
+
+                <div class="header__cta-content">
+                    <span class="header__cta-title">check out</span>
+                    <span class="header__cta-date">Sun. 26 Aug, 2020</span>
+                    <i class="header__cta-icon"></i>
+                </div>
+
+                <div class="header__cta-content">
+                    <span class="header__cta-title">person</span>
+                    <span class="header__cta-date">Sun. 18 Aug, 2020</span>
+                    <i class="header__cta-icon"></i>
+                </div>
+
+                <div class="header__cta-content">
+                    <a href = "#" class = "btn btn--yellow">Book Now</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="row">
+                <h1 class="heading heading--1">A typical <span>evening rest</span></h1>
+                <div class="col col--2">
+                    <p class="paragraph"> Our suites are made of the best facilities to bring you the comfort you deserve. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="paragraph"> Our suites are made of the best facilities to bring you the comfort you deserve. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+            <figure class="section__img-box">
+                <img src="./assets/img/section.jpg" alt="Section Image" class="section__img">
+            </figure>
+        </section>
+
+        <section class="section">
+            <div class="row">
+                <div class="col col--2">
+                    <h1 class="heading heading--1">Rooms / Suites</h1>
+                    <p class="paragraph">Our suites are made of the best facilities to bring you the comfort you deserve. The rooms are affordable and promise maximum comfort. These rooms are furnished with the best of materials</p>
+                </div>
+
+                <div class="gallery gallery--home">
+                    <figure class="gallery__img-box gallery__img-box--home">
+                        <img src="./assets/img/gallery1.jpg" class = "gallery__img" alt="Gallery Image 1">
+                        <a href="#" class="btn btn--transparent">Book Room</a>
+                        <h2 class="heading--2">Standard Room</h2>
+                        <h3 class="heading--3"><span>NGN 20,000</span> / Night</h3>
+                    </figure>
+
+                    <figure class="gallery__img-box gallery__img-box--home">
+                        <img src="./assets/img/gallery2.jpg" class = "gallery__img" alt="Gallery Image 2">
+                        <a href="#" class="btn btn--transparent">Book Room</a>
+                        <h2 class="heading--2">Gold Room</h2>
+                        <h3 class="heading--3"><span>NGN 100,000</span> / Night</h3>
+                    </figure>
+
+                    <figure class="gallery__img-box gallery__img-box--home">
+                        <img src="./assets/img/gallery3.jpg" class = "gallery__img" alt="Gallery Image 3">
+                        <a href="#" class="btn btn--transparent">Book Room</a>
+                        <h2 class="heading--2">Silver Room</h2>
+                        <h3 class="heading--3"><span>NGN 60,000</span> / Night</h3>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-results">
+            <div class="row">    
+                <h1 class="heading heading--1 heading--white">We  offer the best services in <span>the industry to make you feel comfortable</span></h1>
+                
+                <div class="results__container">
+                    <div class="result">
+                        <span class="result__number">10K+</span>
+                        <span class="result__category">happy customers</span>
+                    </div>
+
+                    <div class="result">
+                        <span class="result__number">30</span>
+                        <span class="result__category">locations</span>
+                    </div>
+                    
+                    <div class="result">
+                        <span class="result__number">700</span>
+                        <span class="result__category">room</span>
+                    </div>
+
+                    <div class="result">
+                        <span class="result__number">100k</span>
+                        <span class="result__category">bookings</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section__signUp">
+            <div class="row centralised">
+                <h1 class="heading heading--1 heading--centralised">Signup for comfort</h1>
+                <p class="paragraph">Everyone has the right to comfort. Book a room to enjoy comfort at its best from the best provider of comfort </p>
+                <a href="" class="btn btn--yellow">Book Now</a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href = "./" class="nav__logo-box">
+                <h1 class="nav__logo">Rest.</h1>
+            </a>
+            
+            <a href = "https://timbu.com" class="nav__logo-box">
+                <h1 class="footer__link">timbu.com</h1>
+            </a>
+
+            <p class="paragraph">2020. All Rights Reserved</p>
+
+            <p class="paragraph">34th Avenue , Ikeja, Lagos, Nigeria.</p>
+        </footer>
+    </main>
     
 </body>
+
+<script src="./assets/js/sidebar.js"></script>
+
 </html>
