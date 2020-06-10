@@ -1,0 +1,138 @@
+.Home_Resting_1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #0D3644;
+    margin-bottom: 10px;
+}
+.Home_Resting_2{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D3644;
+    
+}
+.first_name{
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.Home_Welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text_underline{
+    width: 20%;
+    height: 1px;
+    background: #F6AE2D;
+}
+.Home_Embed{
+    position: absolute;
+    height: 140px;
+    background: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin-top: -40px;
+    z-index: 200;
+}
+.Home_Embed_Title{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #0D3644;
+}
+.Home_Embed_Details{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #0D3644;
+}
+.Home_Text_Details{
+    padding: 10px 100px;
+    margin-top: 150px;
+}
+.Home_Typical{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #0D3644;
+}
+.deText_rows{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.deText_rows p{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D3644;
+    padding: 7px;
+
+}
+.Home_Rooms_And_Suits{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.Room_And_Suit_Title{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #0D3644;
+}
+.Room_And_Suit_Details{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D3644;
+}
+.Home_Records{
+    background-color:  #0D3644;
+    color: #FFFFFF;
+    padding: 50px 100px;
+}
+.Home_What_We_Offer{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.Home_Record_Counts{
+    display: flex;
+    justify-content: space-between;
+}
+.Record_Count{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.Record_Count_Title{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 4px;
+}

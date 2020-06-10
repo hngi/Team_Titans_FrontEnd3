@@ -1,0 +1,28 @@
+.Rooms_Rate_Landing{
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.RoomsRates_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.Roomes_And_Rates_Text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+    color: #0D3644;
+}
+.Rooms_Convience{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #0D3644;
+    padding: 100px;
+
+}
